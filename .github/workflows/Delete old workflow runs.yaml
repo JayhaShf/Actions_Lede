@@ -17,6 +17,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: 'JayhaShf/Actions_Lede'
-          retain_days: 30
+          retain_days: 3
           keep_minimum_runs: 6
           delete_run_by_conclusion_pattern: cancelled,failure,skipped
